@@ -1,4 +1,5 @@
 var urlObj = new window.URL(window.location.href);
+var url = prompt("Enter URL for cloaking here.");
 var win;
 playButton = document.getElementById("cloak-button");
 playButton.onclick = function () {
@@ -13,6 +14,7 @@ playButton.onclick = function () {
 		iframe.style.width = '100%';
 		iframe.style.height = '100%';
 		iframe.style.margin = '0';
-		iframe.src = prompt("Enter a URL here.");
+		iframe.src = url;
 		win.document.body.appendChild(iframe);
 	}
+}
