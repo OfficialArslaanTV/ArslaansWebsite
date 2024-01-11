@@ -3,7 +3,7 @@ var url = prompt("Enter a URL here: ");
 if (url) {
 	var win;
 
-	playButton = document.getElementById("play-button");
+	playButton = document.getElementById("cloak-button");
 	playButton.onclick = function () {
 		if (win) {
   		win.focus()
@@ -18,6 +18,6 @@ if (url) {
       iframe.style.margin = '0';
       iframe.src = url;
       win.document.body.appendChild(iframe);
-  	}
-	}
+  }
+}
 }
