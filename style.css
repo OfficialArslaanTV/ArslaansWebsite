@@ -5,3 +5,6 @@ html {
 body {background-color: black; color: #ffffff;}
 body {font-family: "Chakra Petch";}
 a {color: #ff0000;}
+input, textarea {background-color: #940d03; color: white; border-color: red;}
+button {background-color: #940d03; color: white; border-color: red;}
+::placeholder {color: white; opacity: 1;}
